@@ -12,11 +12,16 @@ function App() {
  
 
   return (
-    <ThemeProvider >
-        <BrowserRouter>
-          <MyRoutes/>
-        </BrowserRouter>
-    </ThemeProvider>
+    <>  
+    
+      <ThemeProvider >
+          <BrowserRouter>
+            <MyRoutes/>
+          </BrowserRouter>
+      </ThemeProvider>
+   
+    </>
+
   )
 }
 
