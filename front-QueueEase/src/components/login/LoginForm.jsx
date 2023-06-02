@@ -18,6 +18,7 @@ const Container = styled.div`
     max-width: 400px;
     padding: 40px;
     border-radius: 4px;
+    display: flex;
 
     @media (max-width: 768px) {
         margin-top: -80px;
